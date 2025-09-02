@@ -49,9 +49,8 @@ how_to_play_text = (
     "     save   : keep 1 elixir for the next round\n\n"
     "   Mechanics:\n"
     "   - Elixir is your combat resource\n"
-    "   - Each magnitude costs 1 elixir\n"
+    "   - Each magnitude of instance of ability costs 1 elixir\n"
     "     (e.g. attack x2 = 2 attacks = 2 elixir)\n"
-    "   - Magnitude = number of times a move is applied\n"
 )
 
 
@@ -60,7 +59,7 @@ input_error_prompt = "Please input again."
 
 combat_sequence_prompt = "Here are your available moves: "
 ability_addition_error = "Please input a valid ability name"
-magnitude_prompt = "Please input the magnitude of ability: "
+magnitude_prompt = "How many elixir to use on this ability? (0 to cancel): "
 cheapest_ability_cost = 1
 
 successful_room_travel = "You have travelled to room with ID: "
